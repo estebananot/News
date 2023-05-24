@@ -1,0 +1,13 @@
+.justified-text-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(0, 1fr));
+    gap: 10px;
+    justify-items: start;
+}
+
+.justified-text {
+    text-align: justify;
+    display: inline-block;
+    width: 100%;
+    margin: 0;
+}
